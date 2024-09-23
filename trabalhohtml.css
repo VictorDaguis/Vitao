@@ -1,8 +1,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #ffffff;
+  color: #2c3e50;
   line-height: 1.8;
   margin: 0;
   padding: 0;
@@ -11,12 +11,12 @@ body {
 
 header {
   background-color: #2c3e50;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 nav ul {
   list-style: none;
-  display: flex;
+  display:flex;
   justify-content: center;
 }
 
@@ -25,9 +25,8 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ecf0f1;
-  text-decoration: none;
-  font-size: 18px;
+  color: #ffffff;
+  text-decoration:underline;
   padding: 10px;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -44,14 +43,14 @@ nav ul li a:hover {
 }
 
 .section:nth-child(even) {
-  background-color: #dce0e0;
+  background-color: #e4e7e7;
 }
 
 h2 {
   font-size: 32px;
   margin-bottom: 20px;
   color: #2c3e50;
-  position: relative;
+  position:relative;
 }
 
 h2::after {
@@ -81,16 +80,6 @@ ul.info li, ul.projetos li, ul.contact-info li {
   margin: 10px 0;
 }
 
-a {
-  color: #2980b9;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-a:hover {
-  color: #3498db;
-}
-
 footer {
   background-color: #2c3e50;
   text-align: center;
@@ -99,7 +88,6 @@ footer {
   bottom: 0;
   width: 100%;
   
-
 }
 
 footer p {
@@ -118,9 +106,6 @@ footer p {
 }
 
 @media (max-width: 370px) {
-  nav ul {
-    flex-direction: column;
-  }
 
   nav ul li {
     margin: 10px 0;
